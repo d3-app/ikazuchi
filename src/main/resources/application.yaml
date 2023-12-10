@@ -1,0 +1,17 @@
+spring:
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+  jpa:
+    database: POSTGRESQL
+  datasource:
+    url: jdbc:postgresql://localhost:5430/ikazuchi
+    username: ikazuchi
+    password: thunder
+  flyway:
+    baseline-version: 0
+    enabled: true
+    baseline-on-migrate: true
+##
